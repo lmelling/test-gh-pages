@@ -3,7 +3,7 @@
 ---
 @charset "utf-8";
 
-// Our variables
+// Minima theme variables
 $base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
@@ -41,6 +41,7 @@ $on-laptop:        800px;
 @import "minima";
 @import "bootstrap";
 
+// Override link text-decoration on hover
 a {
   color: $brand-color;
   text-decoration: none;
