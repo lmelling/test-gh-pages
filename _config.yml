@@ -3,7 +3,6 @@ title: Test GitHub Pages
 email: your-email@domain.com
 description: A test of GitHub Pages functionality using jekyll.
 baseurl: "/test-gh-pages" # the subpath of your site, e.g. /blog
-repository: test-gh-pages
 
 # Build settings
 markdown: kramdown
