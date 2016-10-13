@@ -1,5 +1,5 @@
 ---
-# Only the main Sass file needs front matter (the dashes are enough)
+# Main Sass file
 ---
 @charset "utf-8";
 
@@ -35,6 +35,22 @@ $on-laptop:        800px;
 //     }
 // }
 
+
+
 // Import partials from the `minima` theme.
 @import "minima";
 @import "bootstrap";
+
+a {
+  color: $brand-color;
+  text-decoration: none;
+
+  &:visited {
+    color: darken($brand-color, 15%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: none;
+  }
+}
